@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f0f0f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.heading-section h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading-section p {
+  font-size: 1rem;
+  text-align: center;
+  color: #555;
+  margin: 0 auto 2rem auto;
+}
+
+.heading-section h1 {
+  font-size: 2.5rem; /* Increase size */
+  font-weight: 700; /* Make it bold */
+  font-family: 'Montserrat', sans-serif; /* Ensure Montserrat is applied */
+  margin-bottom: 0.5rem;
+}
+
+.upload-container {
+  background: #ffffff;
+  border: 2px dashed #000000; /* Changed from blue to black */
+  padding:150px; /* Increased padding for larger size */
+  text-align: center;
+  border-radius: 30px;
+  width: 500px; /* Increased width */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Optional: stronger shadow */
+}
+
+button {
+  margin-top: 70px;
+  /* padding: 50px 24px;       */
+
+  font-size: 60px;
+  
+  min-height: 70px; /* Increased height */
+  font-weight: 600;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.8s ease;
+  width: 60%;              /* Narrower width */
+  max-width: 200px;        /* Optional max-width for small screens */
+}
+
+
+button:hover {
+  background-color: #333333; /* Slightly lighter black on hover */
+}
+
